@@ -88,7 +88,7 @@ export default {
     cellWidth () {
        switch (this.difficulty) {
           case 'easy':
-            return 50
+            return 30
           case 'hard':
             return 10
           default:
@@ -98,7 +98,7 @@ export default {
     cellHeight () {
        switch (this.difficulty) {
           case 'easy':
-            return 50
+            return 30
           case 'hard':
             return 10
           default:
